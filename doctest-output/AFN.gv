@@ -1,0 +1,8 @@
+// AFN
+digraph AFN {
+	q0 [label=q0 color=green]
+	q1 [label=q1 color=black]
+	q2 [label=q2 color=red]
+	q0 -> q1 [label=a constraint=true]
+	q1 -> q2 [label=b constraint=true]
+}
